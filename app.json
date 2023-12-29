@@ -31,6 +31,14 @@
         "projectId": "f402ccd9-fd14-42c4-b2af-7e4ec0c1c965"
       }
     },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
     "owner": "kyletwebdev"
   }
 }
